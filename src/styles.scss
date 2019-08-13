@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  padding: .25em 1em;
+  transition: 200ms;
+
+  &[type='submit'] {
+    margin-top: 10px;
+  }
+
+  &:first-of-type {
+    margin-right: 5px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+  }
+}
